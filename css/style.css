@@ -535,7 +535,13 @@ i:before {
   font-size: 13px;
   text-transform: uppercase;
   margin-right: 7px;
+  margin-bottom: 100px;
 }
+
+.main_slider_area #main_slider .tp-caption{
+  margin-bottom: 380px;
+}
+
 
 .main_slider_area #main_slider ul li .slider_button .tp_btn {
   display: inline-block;
@@ -1446,15 +1452,12 @@ i:before {
 }
 
 .contact_details_inner {
-  padding-top: 75px;
+  padding-top: 55px;
 }
 
-.contact_text .contact_d_list {
-  margin-top: 40px;
-}
 
 .contact_text .contact_d_list .contact_d_list_item {
-  margin-bottom: 22px;
+  margin-bottom: 12px;
 }
 
 .contact_text .contact_d_list .contact_d_list_item a {

@@ -529,24 +529,24 @@ i:before {
 /*----------------------------------------------------*/
 /* Slider Area css
 ============================================================================================ */
-.main_slider_area #main_slider ul li .slider_button .bg_btn {
+.main_slider_area #main_slider ul li .secand_text {
   display: inline-block;
   line-height: 46px !important;
   font-size: 13px;
   text-transform: uppercase;
   margin-right: 7px;
-  margin-bottom: 100px;
+   margin-bottom: 300px;
 }
 
-.main_slider_area #main_slider .tp-caption{
-  margin-bottom: 380px;
-}
-
-
-.main_slider_area #main_slider ul li .slider_button .tp_btn {
+.main_slider_area #main_slider ul li .third_text {
   display: inline-block;
-  text-transform: uppercase;
+  line-height: 46px !important;
+  margin-right: 10px;
+  font-size: 1px;
+  margin-top: 50px !important;
+  margin-bottom: 250px;
 }
+
 
 /* End Slider Area css
 ============================================================================================ */
@@ -2008,3 +2008,4 @@ i:before {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+

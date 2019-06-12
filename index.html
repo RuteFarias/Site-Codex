@@ -236,7 +236,7 @@
 <!--================End Slider Area =================-->
 
 <!--================Creative Feature Area =================-->
-<section class="creative_feature_area">
+<section class="creative_feature_area" style="background-color: #51545f">
     <div class="container">
         <div class="c_feature_box">
             <div class="row">
@@ -260,7 +260,7 @@
                 </div>
             </div>
         </div>
-        <div class="digital_feature p_100">
+        <div class="digital_feature">
             <div class="row">
                 <div class="col-lg-6">
                 </div>
@@ -472,14 +472,14 @@
                     <div class="center_title">
                         <h2 style="color: #2bc0a4;">Sobre nós</h2>
                     </div>
-                    <p align="justify">
+                    <p text-align="justify">
                 A CodeX é uma empresa sem fins lucrativos, fundada em 15 de outubro de 2018.
             Como empresa júnior de Computação da UFCG, tem como principal objetivo desenvolver soluções criativas
             e inovadoras de alta qualidade, e, promover um ambiente de aprendizado, empreendedorismo e, justo a essas coisas,
             despertar liderança e oferecer aos alunos de computação experiências com outras áreas como gestão de pessoas,
             gestão de projetos, gestão financeira, prospecção, marketing, entre outros.
         </p>
-        <p align="justify">
+        <p text-align="justify">
             Além de estimular o cenário do empreendedorismo brasileiro, 
             a CodeX compete de igual para igual com grandes empresas,
             prestando atendimentos de alto valor agregado com custos que somente uma EJ pode oferecer.
@@ -645,5 +645,11 @@
                 return false;
             });
         </script>
+        <script>
+            $(function() { 
+                // Default
+                jQuery.scrollSpeed(100, 800);
+            });
+            </script>
     </body>
 </html>

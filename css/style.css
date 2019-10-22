@@ -477,6 +477,25 @@ i:before {
   display: none;
 }
 
+.contactForm {
+  background-color: transparent;
+  margin: 10px;
+  width: 300px;
+  color: white;
+}
+textarea {
+  background-color: transparent;
+  color: white;
+  margin: 10px;
+  border-top: 2px solid #8f8f8f;
+  border-left: 2px solid #8f8f8f;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+.formLabel {
+  color: white;
+}
+
 .c_box_item {
   padding: 0px 35px 0px 40px;
   position: relative;
@@ -740,7 +759,8 @@ i:before {
 /* Our Service Area css
 ============================================================================================ */
 .service_area {
-  background: url(../img/service-bg.jpg) no-repeat fixed center center;
+  /* background: url(../img/service-bg.jpg) no-repeat fixed center center; */
+  background-color: #161825;
   background-size: cover;
   position: relative;
   z-index: 2;
